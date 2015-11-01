@@ -1,0 +1,30 @@
+{
+  "name": "koana",
+  "version": "0.0.1",
+  "description": "Solve js problems",
+  "main": "dist/koana.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/**/*.js",
+    "watch-js": "babel src -D -d dist -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConnorAtherton/koana.git"
+  },
+  "keywords": [
+    "problems",
+    "koans"
+  ],
+  "author": "Connor Atherton <c.liam.atherton@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ConnorAtherton/koana/issues"
+  },
+  "homepage": "https://github.com/ConnorAtherton/koana#readme",
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
